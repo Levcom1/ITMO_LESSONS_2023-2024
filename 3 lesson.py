@@ -1,17 +1,19 @@
-# a = int(input('a '))
-# b = int(input('b '))
-# while a > b:
-#     a += 1
-#     print(a)
-# print(b)
-#########
-# a = 10
-# b = 100
-# i = a
-# while i <= b:
-#     if i % 2 == 0:
-#         print(i)
-#     i += 1
+a = int(input('a '))
+b = int(input('b '))
+while a > b:
+    a += 1
+    print(a)
+print(b)
+
+# ---
+
+a = 10
+b = 100
+i = a
+while i <= b:
+    if i % 2 == 0:
+        print(i)
+    i += 1
 
 print('--- 1 ---')
 # 1
