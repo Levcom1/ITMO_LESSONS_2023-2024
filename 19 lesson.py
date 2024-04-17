@@ -91,7 +91,7 @@ for i in range(1017, 7937 + 1, 3):
 print(count, max_el)
 
 print('--- 14. ---')
-f = open('17_14_10.rtf')
+f = open('19_14_10.rtf')
 nums = [int(i) for i in f]
 max_square_sum = count = max_square = 0
 for x in nums:

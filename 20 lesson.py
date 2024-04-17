@@ -1,7 +1,7 @@
 import re
 
 print('--- 14.10 ---')
-f = open('17_14_10.rtf')
+f = open('19_14_10.rtf')
 f = [int(i) for i in f]
 max_el = max(el for el in f if abs(el) % 10 == 3)
 k = 0
@@ -13,7 +13,7 @@ for j in range(len(f) - 1):
 print(k, max_sum)
 
 print('--- 14.15 ---')
-s = [int(s) for s in open('17_14_15.rtf')]
+s = [int(s) for s in open('20_14_15.rtf')]
 mn = 10 ** 6
 res = []
 for i in s:
